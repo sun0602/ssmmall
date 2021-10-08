@@ -1,0 +1,35 @@
+# ***ignore the following file***
+# 忽略编译后的字节码文件
+*.class
+# package file
+# 注意，此处没有忽略jar包，因为我们可能会用到第三方jar包
+# 例如支付宝，微信支付，需要提交到git仓库中才能保证代码被其他人下载后正常执行。
+# 另外，由于maven的jar包存在于本地库中，因此不会被上传到git远程服务器中。
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+# 忽略maven项目生成的目标文件
+target/
+# 忽略日志Log文件
+*.log
+# eclipse ignore
+.settings/
+.project
+.classpath
+# idea ignore
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+# 忽略临时temp文件
+*.cache
+*.diff
+*.patch
+*.tmp
+# system ignore
+.DS_Store
+Thumbs.db
